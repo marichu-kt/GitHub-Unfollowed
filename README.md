@@ -1,25 +1,48 @@
+
 # 🐙 GitHub Follower Tracker
 
 ![Banner](images/banner.png)
 
-**GitHub Follower Tracker** is a simple yet powerful Python tool that lets you analyze your GitHub followers and identify which users you follow that don’t follow you back. With a clean interface, animated terminal spinners, optional export to TXT or CSV, and fast performance using parallel requests, it’s perfect for developers who want to keep their social graph tidy.
+**GitHub Follower Tracker** is a fast and interactive Python tool that checks which GitHub users you follow that don’t follow you back. It features animated terminal spinners, optional export to TXT/CSV, parallel requests for speed, and colorful CLI output. Ideal for managing your GitHub social connections in style.
 
 ---
 
 ## 🚀 Features
 
-- Detect users you follow who don’t follow you back
-- Optional export to `.txt` and/or `.csv` files
-- Parallel processing for faster execution
-- Animated terminal feedback
-- Colorized CLI using `colorama`
+- Identify users who don’t follow you back
+- Export results to `.txt` and/or `.csv`
+- Parallel data fetching for performance
+- ASCII GitHub logo and spinner animations
+- Environment-based secure configuration
 
 ---
 
-## 🖥️ How It Works
+## ⚙️ Configuration
 
-1. The script authenticates with your GitHub account using a **Personal Access Token**.
-2. It fetches the list of users you follow and the users who follow you.
-3. It compares both lists and detects users who don’t follow you back.
-4. It fetches additional details (name, bio, followers, etc.) of those users.
-5. It displays the results in the terminal and offers to export them to `.txt` and/or `.csv`.
+To run the script, you **must create and configure a `.env.local` file** in the root of the project with the following content:
+
+```env
+GITHUB_USERNAME=XXXXXXXXXXXXXXXXXXX
+GITHUB_TOKEN=XXXXXXXXXXXXXXXXXXX
+```
+
+Replace `XXXXXXXXXXXXXXXXXXX` with:
+
+- `GITHUB_USERNAME`: your GitHub username
+- `GITHUB_TOKEN`: your personal access token from [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
+
+> 🔐 **Do NOT share or upload your `.env.local` file**. It contains sensitive credentials.  
+> ✅ Add it to `.gitignore` to keep it safe.
+
+---
+
+## 📁 Output Files
+
+- `not_following_back.txt`: Plain list with GitHub usernames and profile URLs
+- `not_following_back.csv`: Detailed list including name, bio, followers, etc.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE) — free to use, modify, and distribute.
