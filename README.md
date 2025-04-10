@@ -31,9 +31,6 @@ Replace `XXXXXXXXXXXXXXXXXXX` with:
 - `GITHUB_USERNAME`: your GitHub username
 - `GITHUB_TOKEN`: your personal access token from [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
 
-> 🔐 **Do NOT share or upload your `.env.local` file**. It contains sensitive credentials.  
-> ✅ Add it to `.gitignore` to keep it safe.
-
 ---
 
 ## 📁 Output Files
