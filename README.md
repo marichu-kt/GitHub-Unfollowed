@@ -19,7 +19,7 @@
 
 ## ⚙️ Configuration
 
-To run the script, you **must create and configure a [`.env.local`](https://github.com/marichu-kt/GitHub-Unfollowed/blob/main/.env.local) file** in the root of the project with the following content:
+To run the script, you **must create and configure a [`.env.local`](https://github.com/marichu-kt/GitHub-Unfollowed/blob/main/.env.local) file** in the root of the project with the content:
 
 ```env
 GITHUB_USERNAME=XXXXXXXXXXXXXXXXXXX
