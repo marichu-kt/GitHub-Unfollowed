@@ -12,7 +12,7 @@
 - Identify users who don’t follow you back
 - Export results to `.txt` and/or `.csv`
 - Parallel data fetching for performance
-- ASCII GitHub logo and spinner animations
+- ASCII spinner animations
 - Environment-based secure configuration
 
 ---
