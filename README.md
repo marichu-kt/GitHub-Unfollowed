@@ -1,7 +1,7 @@
 
 # 🐙 GitHub Follower Tracker
 
-![Banner](images/banner.png)
+![Banner](images/banner.jpg)
 
 **GitHub Follower Tracker** is a fast and interactive Python tool that checks which GitHub users you follow that don’t follow you back. It features animated terminal spinners, optional export to TXT/CSV, parallel requests for speed, and colorful CLI output. Ideal for managing your GitHub social connections in style.
 
